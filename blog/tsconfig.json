@@ -1,0 +1,12 @@
+// tsconfig.json
+{
+    "compilerOptions": {
+        // 与Vue的浏览器保持一致
+        "target": "ES5",
+        // 这可以对this上的数据进行更严格的推断
+        "strict": true,
+        // 如果使用webpack 2+ 或rollup，可以利用tree-shake
+        "module": "es2015",
+        "moduleResolution": "node"
+    }
+}
