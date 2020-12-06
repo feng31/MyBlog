@@ -1,11 +1,9 @@
 <template>
-  <div>
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <hello-world msg="Hello Vue 3.0 + Vite" ></hello-world>
-  </div>
+  <img alt="Vue logo" src="./assets/logo.png" />
+  <HelloWorld msg="Hello Vue 3.0 + Vite" />
 </template>
 
-<script lang="ts">
+<script>
 import HelloWorld from './components/HelloWorld.vue'
 
 export default {
